@@ -1,11 +1,11 @@
-#include <creed/hello.h>
+#include <cadence/hello.h>
 
 #include <fmt/format.h> // for format
 #include <matchit.h>    // for pattern, _, PatternPipable
 #include <string>       // for basic_string, string
 #include <string_view>  // for basic_string_view, string_view
 
-namespace creed {
+namespace cadence {
 
 std::string Greeter::greet(std::string_view person)
 {
@@ -20,4 +20,4 @@ std::string Greeter::greet(std::string_view person)
         });
 }
 
-} // namespace creed
+} // namespace cadence

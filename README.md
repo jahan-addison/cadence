@@ -1,8 +1,8 @@
-# creed
+# cadence
 
 ## Overview
 
-creed is an opinionated boilerplate for modern C++ projects. It provides what I believe is essential tooling for code quality, testing, and structure for projects of any size. The build system integrates sanitizers, static analyzers, and automated formatting to catch errors, undefined behavior, and segmentation faults during all stages of development.
+cadence is an opinionated boilerplate for modern C++ projects. It provides what I believe is essential tooling for code quality, testing, and structure for projects of any size. The build system integrates sanitizers, static analyzers, and automated formatting to catch errors, undefined behavior, and segmentation faults during all stages of development.
 
 The boilerplate uses C++20 and includes a test suite built with `doctest`, along with pre-commit hooks for code quality enforcement via `clang-format`, `clang-tidy`, and `cppcheck`.
 
@@ -149,7 +149,7 @@ An automated code formatter that enforces consistent style. Configuration is in 
 Run manually:
 
 ```bash
-clang-format -i creed/**/*.{cc,h}
+clang-format -i cadence/**/*.{cc,h}
 ```
 
 ### cppcheck
@@ -192,8 +192,8 @@ To add dependencies, edit `CMakeLists.txt` and use `cpmaddpackage`.
 ## Project Structure
 
 ```
-creed/
-├── creed/          Source files
+cadence/
+├── cadence/          Source files
 │   ├── hello.cc
 │   ├── hello.h
 │   └── main.cc
