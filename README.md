@@ -210,6 +210,6 @@ cadence/
 
 ## Extras
 
-Notes, books on C++: https://soliloq.uy/my-cpp-notes-documents-books/
+Notes, books on C++: https://jahans.blog/my-cpp-notes-documents-books/
 
 The license is CC0 1.0 Universal, i.e. "public domain." Replace with your own license.

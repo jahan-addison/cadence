@@ -30,7 +30,7 @@ include(GNUInstallDirs)
 # DEPENDENCIES
 # ##############################################################################
 
-cpmaddpackage("gh:StableCoder/cmake-scripts#24.04")
+cpmaddpackage("gh:StableCoder/cmake-scripts#24.04.1")
 cpmaddpackage("gh:TheLartians/PackageProject.cmake@1.8.0")
 
 cpmaddpackage("gh:doctest/doctest@2.4.12")
